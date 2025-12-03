@@ -1,0 +1,4 @@
+body { background-color: #f8f9fa; }
+.header-hero { background:url("/img/header.jpg") center/cover no-repeat; min-height:220px; display:grid; place-items:center; }
+.header-hero .banner { background:rgba(255,255,255,.85); border-radius:10px; padding:1rem 1.5rem; font-weight:700; text-align:center; }
+.card img { height:220px; object-fit:cover; }

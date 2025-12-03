@@ -1,0 +1,1 @@
+export const formatCLP = (num) => num.toLocaleString("es-CL", { style: "currency", currency: "CLP", maximumFractionDigits: 0 });
