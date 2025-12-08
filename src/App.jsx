@@ -1,7 +1,16 @@
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+
 export default function App() {
-  return (<><Navbar /><Header /><Home /><Footer /></>);
+  return (
+    <>
+      <Navbar />
+      <main className="container my-4">
+        <h1 className="h3 mb-4">Register</h1>
+        <RegisterPage />
+      </main>
+      <Footer />
+    </>
+  );
 }
